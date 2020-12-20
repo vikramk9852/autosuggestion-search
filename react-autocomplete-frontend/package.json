@@ -1,0 +1,38 @@
+{
+  "name": "react-autocomplete-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next",
+    "lint": "eslint ./pages/*.tsx ./components/**/*.tsx",
+    "lint:fix": "eslint --fix ./pages/*.tsx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^10.0.3",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sass": "^1.30.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.10",
+    "@types/react": "^17.0.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "eslint": "^7.15.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-watch": "^7.0.0",
+    "typescript": "^4.1.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  }
+}

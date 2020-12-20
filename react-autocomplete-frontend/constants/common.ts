@@ -1,0 +1,9 @@
+export const SERVER_URL = "http://localhost:4000";
+export const AUTOCOMPLETE_PLACEHOLDER = "Searh users by ID, address, name, item";
+export const USER_PAGE_URL = "/userDetails";
+export const SEARCH_PAGE_URL = "/searchResult";
+export const BLUE_COLOR = "blue";
+export const SEARCHING_TEXT = "Searching...";
+export const NO_RESULTS_FOUND_TEXT = "No results found";
+export const ENTER_MORE_CHARS_TEXT = "Please enter 3 or more letters to search";
+export const PAGE_TITLE = "Refrens Search Assignment";

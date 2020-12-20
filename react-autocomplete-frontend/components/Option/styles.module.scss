@@ -1,0 +1,44 @@
+.options{
+    border-bottom: 1px solid gray;
+    overflow-y: auto;
+    cursor: pointer;
+    border-top: none;
+
+    .row{
+        padding: 10px;
+        border-bottom: 1px solid gray;
+    }
+    .active-option{
+        background-color: #FFFED0;
+    }
+
+
+    .option-id{
+        margin: 0;
+    }
+    .option-name{
+        margin-top: 0;
+        margin-bottom: 5px;
+        font-size: 0.9em;
+        font-style: italic;
+    }
+    .option-address{
+        margin: 0;
+        font-size: smaller;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+}
+.suggestion-list{
+    z-index: 99;
+    max-height: 45vh;
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    box-shadow: 1px 1px 2px gray;
+    top: 100%;
+    left: 0;
+    right: 0;
+}

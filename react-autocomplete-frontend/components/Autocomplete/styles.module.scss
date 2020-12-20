@@ -1,0 +1,16 @@
+.autocomplete{
+    position: relative;
+    display: inline-block;
+    .input{
+        width: 15rem;
+        height: 2em;
+        border: 1px solid gray;
+        &:focus{
+            outline: none;
+        }
+
+        &::placeholder{
+            text-overflow:ellipsis;
+        }
+    }
+}
